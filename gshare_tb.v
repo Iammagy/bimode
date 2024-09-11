@@ -3,8 +3,8 @@
 
 module gs_tb;
     // señales para el testbench
-    wire clk;
-    wire rst;
+    wire clk_i;
+    wire reset_i;
     wire [63:0] branch_address;
     wire real_ton;
     wire prediction;
@@ -20,16 +20,16 @@ module gs_tb;
     end
     
     bimode uut (
-        .clk(clk),
-        .rst(rst),
+        .clk_i(clk_i),
+        .reset_i(reset_i),
         .branch_address(branch_address),
         .real_ton(real_ton),
         .prediction(prediction)
     );
 
     bimoded uuut(
-        .clk(clk),
-        .rst(rst),
+        .clk_i(clk_i),
+        .reset_i(reset_i),
         .branch_address(branch_address),
         .real_ton(real_ton)
     );
