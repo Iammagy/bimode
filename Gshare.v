@@ -79,8 +79,6 @@ module bimode(
             total <= total + 1;
             
 
-
-            
             //porcentaje de aciertos
             if (total > 0) begin
                 porcentaje_de_aciertos <= (aciertos / total) * 100.0;
