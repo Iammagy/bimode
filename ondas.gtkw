@@ -1,0 +1,27 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Wed Sep 11 05:33:41 2024
+[*]
+[dumpfile] "/home/magy/bimode/sim.vcd"
+[dumpfile_mtime] "Wed Sep 11 05:29:47 2024"
+[dumpfile_size] 6984
+[savefile] "/home/magy/bimode/ondas.gtkw"
+[timestart] 0
+[size] 1370 836
+[pos] -38 -38
+*-6.569056 50 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] gs_tb.
+[sst_width] 48
+[signals_width] 319
+[sst_expanded] 0
+[sst_vpaned_height] 226
+@28
+gs_tb.uut.clk
+gs_tb.uut.rst
+@22
+gs_tb.uut.branch_address[63:0]
+@28
+gs_tb.uut.prediction
+gs_tb.uut.real_ton
+[pattern_trace] 1
+[pattern_trace] 0
